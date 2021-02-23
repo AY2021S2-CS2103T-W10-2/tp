@@ -40,10 +40,10 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Kumaran S/O Selvvaratnam
 
-<img src="images/kumaran.png" width="200px">
+<img src="images/kumsssss.png" width="200px">
 
 [[github](http://github.com/kumsssss)]
-[[portfolio](team/johndoe.md)]
+[[portfolio](team/kumaran.md)]
 
 * Role & Responsibilities: In charge of Code Quality and Model,
   Testing Expert
