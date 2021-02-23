@@ -38,15 +38,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Member 3
 * Responsibilities: Data
 
-### Kumaran
+### Kumaran S/O Selvvaratnam
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/kumaran.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/kumsssss)]
 [[portfolio](team/johndoe.md)]
 
-* Role: Member 4
-* Responsibilities: Dev Ops + Threading
+* Role & Responsibilities: In charge of Code Quality and Model,
+  Testing Expert
 
 ### Amanda Ang
 
