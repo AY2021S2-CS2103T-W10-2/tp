@@ -5,6 +5,7 @@ import static seedu.storemando.logic.parser.CliSyntax.PREFIX_LOCATION;
 
 import seedu.storemando.logic.commands.ClearCommand;
 import seedu.storemando.logic.parser.exceptions.ParseException;
+import seedu.storemando.model.item.Location;
 import seedu.storemando.model.item.LocationContainsPredicate;
 
 /**
@@ -30,7 +31,7 @@ public class ClearCommandParser implements Parser<ClearCommand> {
         }
 
         if (argMultimap.getValue(PREFIX_LOCATION).isPresent()) {
-            String location = ParserUtil.parseLocation(argMultimap.getValue(PREFIX_LOCATION).get()).toString();
+            Location location = ParserUtil.parseLocation(argMultimap.getValue(PREFIX_LOCATION).get());
             return new ClearCommand(new LocationContainsPredicate(location));
         } else {
             throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, ClearCommand.MESSAGE_USAGE));

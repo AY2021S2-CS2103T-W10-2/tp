@@ -7,6 +7,7 @@ import static seedu.storemando.logic.parser.CommandParserTestUtil.assertParseSuc
 import org.junit.jupiter.api.Test;
 
 import seedu.storemando.logic.commands.ClearCommand;
+import seedu.storemando.model.item.Location;
 import seedu.storemando.model.item.LocationContainsPredicate;
 
 public class ClearCommandParserTest {
@@ -29,7 +30,7 @@ public class ClearCommandParserTest {
 
     @Test
     public void parse_validLocationArgs_returnsClearCommand() {
-        String location = "kitchen";
+        Location location = new Location("kitchen");
         ClearCommand expectedClearCommand =
             new ClearCommand(new LocationContainsPredicate(location));
         assertParseSuccess(parser, " l/kitchen", expectedClearCommand);

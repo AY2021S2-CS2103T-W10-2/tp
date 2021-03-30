@@ -6,15 +6,15 @@ import java.util.function.Predicate;
  * Tests that a {@code Item}'s {@code location} matches any of the keywords given.
  */
 public class LocationContainsPredicate implements Predicate<Item> {
-    private final String keyword;
+    private final Location keyword;
 
-    public LocationContainsPredicate(String keyword) {
+    public LocationContainsPredicate(Location keyword) {
         this.keyword = keyword;
     }
 
     @Override
     public boolean test(Item item) {
-        return keyword.equals(item.getLocation().value);
+        return keyword.equals(item.getLocation());
     }
 
     @Override
